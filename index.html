@@ -5,10 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alfian Chabib | Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- cdn icon scout -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
   </head>
   <body>
     <!-- Main Container -->
-    <section class="container"></section>
-    <section class="container"></section>
+    <nav class="navbar">
+      <h1 class="logoname">Alfian Chabib</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="container" id="home">
+      <main class="home-main">
+        <div class="profile-content">
+          <h2>Hi, I'am Alfian</h2>
+          <p>Fullstack Web Developer</p>
+          <p>
+            High level experience in web design and development knowledge,
+            producing quality work.
+          </p>
+          <a href="#contact">Contact Me <i class="uil uil-message"></i></a>
+        </div>
+        <div class="image">
+          <img src="./asset/hero-img.png" alt="alfian" />
+        </div>
+        <!-- <div class="social">
+          <a href=""><i class="uil uil-instagram"></i></a>
+          <a href=""><i class="uil uil-github-alt"></i></a>
+          <a href=""><i class="uil uil-linkedin-alt"></i></a>
+        </div> -->
+      </main>
+    </section>
+    <section class="container" id="about">
+      <div class="about-header">
+        <h2>About Me</h2>
+        <p>My Introduction</p>
+      </div>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="./asset/hero-img.png" alt="alfian" />
+        </div>
+        <div class="about-description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            beatae inventore vitae consequuntur ut vero alias est nam. Nesciunt
+            voluptatibus vel libero distinctio accusamus eligendi ullam porro
+            nisi sed quisquam!
+          </p>
+          <div class="experience">
+            <div>
+              <h3>03+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div>
+              <h3>10+</h3>
+              <p>Project Created</p>
+            </div>
+            <div>
+              <h3>20+</h3>
+              <p>Client Ordered</p>
+            </div>
+          </div>
+          <button class="cv">
+            Download CV
+            <i class="uil uil-import"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="skills">
+      <div class="skills-header">
+        <h2>My Skills</h2>
+        <p>My Introduction</p>
+      </div>
+      <div class="skills-list">
+        <details>
+          <summary>
+            <i class="uil uil-angle-down"></i>Frontend Developer
+          </summary>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJs</li>
+            <li>TailwindCss</li>
+            <li>Zustand</li>
+          </ul>
+        </details>
+        <details>
+          <summary><i class="uil uil-angle-down"></i>Backend Developer</summary>
+          <ul>
+            <li>NodeJs</li>
+            <li>Express</li>
+            <li>Mongo Db</li>
+            <li>Apache</li>
+            <li>Nginx</li>
+            <li>JWT</li>
+            <li>Postgresql</li>
+          </ul>
+        </details>
+        <details>
+          <summary><i class="uil uil-angle-down"></i>UI/UX</summary>
+          <ul>
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Canva</li>
+            <li>inDesign</li>
+            <li>Illustrator</li>
+            <li>Corel Draw</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+    <section class="container" id="footer"></section>
   </body>
 </html>
